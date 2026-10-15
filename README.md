@@ -18,39 +18,6 @@ The project covers positive and negative test scenarios, assertions, response st
 - Reporting: Playwright HTML Report and Newman HTML Extra Report
 - Version Control: Git and GitHub
 
-## Project Structure
-
-
-Playwright-Automation-Project-main/
-│
-├── pages/
-│   ├── CartPage.js
-│   ├── CheckoutPage.js
-│   ├── InventoryPage.js
-│   └── LoginPage.js
-│
-├── postman/
-│   ├── reqres-assessment.postman_collection.json
-│   └── reqres-local.postman_environment.json
-│
-├── reports/
-│   └── .gitkeep
-│
-├── tests/
-│   └── ui/
-│       ├── locked-out.spec.js
-│       ├── performance-glitch-checkout.spec.js
-│       └── standard-user-checkout.spec.js
-│
-├── .gitignore
-│
-├── package.json
-│
-├── playwright.config.js
-│
-└── README.md
- 
-
 
 ## UI Automation Testing
 
