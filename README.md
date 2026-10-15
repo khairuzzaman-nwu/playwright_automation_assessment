@@ -20,26 +20,29 @@ The project covers positive and negative test scenarios, assertions, response st
 
 ## Project Structure
 
+Automation Project/
+└── Assessment/
+    ├── pages/
+    │   ├── CartPage.js
+    │   ├── CheckoutPage.js
+    │   ├── InventoryPage.js
+    │   └── LoginPage.js
+    ├── postman/
+    │   ├── reqres-assessment.postman_collection.json
+    │   └── reqres-local.postman_environment.json
+    ├── reports/
+    │   └── .gitkeep
+    ├── tests/
+    │   └── ui/
+    │       ├── locked-out.spec.js
+    │       ├── performance-glitch-checkout.spec.js
+    │       └── standard-user-checkout.spec.js
+    ├── .gitignore
+    ├── package.json
+    ├── playwright.config.js
+    └── README.md
 
-saucedemo_reqres_assessment/
-pages
-   LoginPage.js
-   InventoryPage.js
-   CartPage.js
-   CheckoutPage.js
- tests
-   ui
-      locked-out.spec.js
-      standard-user-checkout.spec.js
-      performance-glitch-checkout.spec.js
- postman
-     reqres-assessment.postman_collection.json
-     reqres-local.postman_environment.json
- reports
- playwright.config.js
- ackage.json
- .gitignore
- README.md
+ 
 
 
 ## UI Automation Testing
