@@ -22,24 +22,24 @@ The project covers positive and negative test scenarios, assertions, response st
 
 
 saucedemo_reqres_assessment/
-├── pages/
-│   ├── LoginPage.js
-│   ├── InventoryPage.js
-│   ├── CartPage.js
-│   └── CheckoutPage.js
-├── tests/
-│   └── ui/
-│       ├── locked-out.spec.js
-│       ├── standard-user-checkout.spec.js
-│       └── performance-glitch-checkout.spec.js
-├── postman/
-│   ├── reqres-assessment.postman_collection.json
-│   └── reqres-local.postman_environment.json
-├── reports/
-├── playwright.config.js
-├── package.json
-├── .gitignore
-└── README.md
+pages
+   LoginPage.js
+   InventoryPage.js
+   CartPage.js
+   CheckoutPage.js
+ tests
+   ui
+      locked-out.spec.js
+      standard-user-checkout.spec.js
+      performance-glitch-checkout.spec.js
+ postman
+     reqres-assessment.postman_collection.json
+     reqres-local.postman_environment.json
+ reports
+ playwright.config.js
+ ackage.json
+ .gitignore
+ README.md
 
 
 ## UI Automation Testing
